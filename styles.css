@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0f7fa; /* Light Blue */
+}
+
+.lax {
+    background: linear-gradient(to right, #ff9800, #0077ff);
+    color: white;
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.lax h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.lax p {
+    font-size: 1.2em;
+}
+
+.flag-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.indian-flag {
+    width: 280px; /* Ensure this matches the size of your flag image */
+    height: 160px; /* Ensure this matches the size of your flag image */
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.feature-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+    border-radius: 8px;
+}
