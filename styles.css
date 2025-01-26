@@ -41,8 +41,8 @@ body {
 }
 
 .indian-flag {
-    width: 280px; /* Ensure this matches the size of your flag image */
-    height: 160px; /* Ensure this matches the size of your flag image */
+    width: 280px; 
+    height: 160px; 
     border-radius: 10px;
     display: inline-block;
 }
